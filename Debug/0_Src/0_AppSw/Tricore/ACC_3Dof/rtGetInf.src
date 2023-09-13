@@ -1,0 +1,571 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382"
+	.compiler_invocation	"ctc --dep-file=0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\.rtGetInf.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Asc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Lin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Spi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\UART -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.src ..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c"
+	.compiler_name		"ctc"
+	;source	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.rtGetInf.rtGetInf',code,cluster('rtGetInf')
+	.sect	'.text.rtGetInf.rtGetInf'
+	.align	2
+	
+	.global	rtGetInf
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     1  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     2   * File: rtGetInf.c
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     3   *
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     4   * Code generated for Simulink model 'mpcACCsystem'.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     5   *
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     6   * Model version                  : 1.220
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     7   * Simulink Coder version         : 9.4 (R2020b) 29-Jul-2020
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     8   * C/C++ source code generated on : Tue Sep 12 13:52:12 2023
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	     9   *
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    10   * Target selection: ert.tlc
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    11   * Embedded hardware selection: Infineon->TriCore
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    12   * Code generation objectives: Unspecified
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    13   * Validation result: Not run
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    14   */
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    15  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    16  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    17   * Abstract:
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    18   *      Function to initialize non-finite, Inf
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    19   */
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    20  #include "rtGetInf.h"
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    21  #define NumBitsPerChar                 8U
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    22  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    23  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    24   * Initialize rtInf needed by the generated code.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    25   * Inf is initialized as non-signaling. Assumes IEEE.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    26   */
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    27  real_T rtGetInf(void)
+; Function rtGetInf
+.L7:
+rtGetInf:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    28  {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    29    size_t bitsPerReal = sizeof(real_T) * (NumBitsPerChar);
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    30    real_T inf = 0.0;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    31    if (bitsPerReal == 32U) {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    32      inf = rtGetInfF();
+	j	rtGetInfF
+.L39:
+	
+__rtGetInf_function_end:
+	.size	rtGetInf,__rtGetInf_function_end-rtGetInf
+.L22:
+	; End of function
+	
+	.sdecl	'.text.rtGetInf.rtGetInfF',code,cluster('rtGetInfF')
+	.sect	'.text.rtGetInf.rtGetInfF'
+	.align	2
+	
+	.global	rtGetInfF
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    33    } else {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    34      union {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    35        LittleEndianIEEEDouble bitVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    36        real_T fltVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    37      } tmpVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    38  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    39      tmpVal.bitVal.words.wordH = 0x7FF00000U;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    40      tmpVal.bitVal.words.wordL = 0x00000000U;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    41      inf = tmpVal.fltVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    42    }
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    43  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    44    return inf;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    45  }
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    46  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    47  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    48   * Initialize rtInfF needed by the generated code.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    49   * Inf is initialized as non-signaling. Assumes IEEE.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    50   */
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    51  real32_T rtGetInfF(void)
+; Function rtGetInfF
+.L9:
+rtGetInfF:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    52  {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    53    IEEESingle infF;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    54    infF.wordL.wordLuint = 0x7F800000U;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    55    return infF.wordL.wordLreal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    56  }
+	movh	d2,#32640
+	ret
+.L41:
+	
+__rtGetInfF_function_end:
+	.size	rtGetInfF,__rtGetInfF_function_end-rtGetInfF
+.L27:
+	; End of function
+	
+	.sdecl	'.text.rtGetInf.rtGetMinusInf',code,cluster('rtGetMinusInf')
+	.sect	'.text.rtGetInf.rtGetMinusInf'
+	.align	2
+	
+	.global	rtGetMinusInf
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    57  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    58  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    59   * Initialize rtMinusInf needed by the generated code.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    60   * Inf is initialized as non-signaling. Assumes IEEE.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    61   */
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    62  real_T rtGetMinusInf(void)
+; Function rtGetMinusInf
+.L11:
+rtGetMinusInf:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    63  {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    64    size_t bitsPerReal = sizeof(real_T) * (NumBitsPerChar);
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    65    real_T minf = 0.0;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    66    if (bitsPerReal == 32U) {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    67      minf = rtGetMinusInfF();
+	j	rtGetMinusInfF
+.L44:
+	
+__rtGetMinusInf_function_end:
+	.size	rtGetMinusInf,__rtGetMinusInf_function_end-rtGetMinusInf
+.L32:
+	; End of function
+	
+	.sdecl	'.text.rtGetInf.rtGetMinusInfF',code,cluster('rtGetMinusInfF')
+	.sect	'.text.rtGetInf.rtGetMinusInfF'
+	.align	2
+	
+	.global	rtGetMinusInfF
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    68    } else {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    69      union {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    70        LittleEndianIEEEDouble bitVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    71        real_T fltVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    72      } tmpVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    73  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    74      tmpVal.bitVal.words.wordH = 0xFFF00000U;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    75      tmpVal.bitVal.words.wordL = 0x00000000U;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    76      minf = tmpVal.fltVal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    77    }
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    78  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    79    return minf;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    80  }
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    81  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    82  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    83   * Initialize rtMinusInfF needed by the generated code.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    84   * Inf is initialized as non-signaling. Assumes IEEE.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    85   */
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    86  real32_T rtGetMinusInfF(void)
+; Function rtGetMinusInfF
+.L13:
+rtGetMinusInfF:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    87  {
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    88    IEEESingle minfF;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    89    minfF.wordL.wordLuint = 0xFF800000U;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    90    return minfF.wordL.wordLreal;
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    91  }
+	movh	d2,#65408
+	ret
+.L46:
+	
+__rtGetMinusInfF_function_end:
+	.size	rtGetMinusInfF,__rtGetMinusInfF_function_end-rtGetMinusInfF
+.L37:
+	; End of function
+	
+	.calls	'rtGetInf','rtGetInfF'
+	.calls	'rtGetMinusInf','rtGetMinusInfF'
+	.calls	'rtGetInf','',0
+	.calls	'rtGetInfF','',0
+	.calls	'rtGetMinusInf','',0
+	.calls	'rtGetMinusInfF','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L15:
+	.word	667
+	.half	3
+	.word	.L16
+	.byte	4
+.L14:
+	.byte	1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L17
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	160
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	167
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	209
+	.byte	7
+	.word	209
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	225
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	230
+	.byte	9
+	.byte	'value',0
+	.word	209
+	.byte	9
+	.byte	'compare',0
+	.word	209
+	.byte	0
+.L38:
+	.byte	2
+	.byte	'float',0,4,4,10,1,47,3,4,11
+	.byte	'wordLreal',0
+	.word	287
+	.byte	4,2,35,0,11
+	.byte	'wordLuint',0
+	.word	209
+	.byte	4,2,35,0,0
+.L42:
+	.byte	12,1,46,9,4,11
+	.byte	'wordL',0
+	.word	296
+	.byte	4,2,35,0,0,2
+	.byte	'short int',0,2,5,13
+	.byte	'__wchar_t',0,2,1,1
+	.word	361
+	.byte	13
+	.byte	'__size_t',0,2,1,1
+	.word	209
+	.byte	13
+	.byte	'__ptrdiff_t',0,2,1,1
+	.word	160
+	.byte	14,1,7
+	.word	429
+	.byte	13
+	.byte	'__codeptr',0,2,1,1
+	.word	431
+	.byte	2
+	.byte	'char',0,1,6,13
+	.byte	'int8_T',0,3,47,21
+	.word	454
+	.byte	2
+	.byte	'unsigned char',0,1,8,13
+	.byte	'uint8_T',0,3,48,23
+	.word	477
+	.byte	13
+	.byte	'int16_T',0,3,49,15
+	.word	361
+	.byte	2
+	.byte	'unsigned short int',0,2,7,13
+	.byte	'uint16_T',0,3,50,24
+	.word	526
+	.byte	13
+	.byte	'int32_T',0,3,51,13
+	.word	160
+	.byte	13
+	.byte	'uint32_T',0,3,52,22
+	.word	209
+	.byte	13
+	.byte	'real32_T',0,3,53,15
+	.word	287
+	.byte	13
+	.byte	'real64_T',0,3,54,16
+	.word	287
+	.byte	13
+	.byte	'real_T',0,3,60,16
+	.word	287
+	.byte	2
+	.byte	'char',0,1,6,13
+	.byte	'char_T',0,3,66,14
+	.word	647
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,23,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,19,1,58,15,59,15,57,15,11,15,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0,14,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L17:
+	.word	.L49-.L48
+.L48:
+	.half	3
+	.word	.L51-.L50
+.L50:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rt_nonfinite.h',0,0,0,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0,0,0,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtwtypes.h',0,0,0,0,0
+.L51:
+.L49:
+	.sdecl	'.debug_info',debug,cluster('rtGetInf')
+	.sect	'.debug_info'
+.L18:
+	.word	225
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L21,.L20
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'rtGetInf',0,1,27,8
+	.word	.L38
+	.byte	1,1,1
+	.word	.L7,.L39,.L6
+	.byte	4
+	.word	.L7,.L39
+	.byte	5
+	.byte	'inf',0,1,30,10
+	.word	.L38,.L40
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtGetInf')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtGetInf')
+	.sect	'.debug_line'
+.L20:
+	.word	.L53-.L52
+.L52:
+	.half	3
+	.word	.L55-.L54
+.L54:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0,0,0,0,0
+.L55:
+	.byte	5,20,7,0,5,2
+	.word	.L7
+	.byte	3,31,1,5,1,7,9
+	.half	.L22-.L7
+	.byte	3,13,0,1,1
+.L53:
+	.sdecl	'.debug_ranges',debug,cluster('rtGetInf')
+	.sect	'.debug_ranges'
+.L21:
+	.word	-1,.L7,0,.L22-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('rtGetInfF')
+	.sect	'.debug_info'
+.L23:
+	.word	227
+	.half	3
+	.word	.L24
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L26,.L25
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'rtGetInfF',0,1,51,10
+	.word	.L38
+	.byte	1,1,1
+	.word	.L9,.L41,.L8
+	.byte	4
+	.word	.L9,.L41
+	.byte	5
+	.byte	'infF',0,1,53,14
+	.word	.L42,.L43
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtGetInfF')
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtGetInfF')
+	.sect	'.debug_line'
+.L25:
+	.word	.L57-.L56
+.L56:
+	.half	3
+	.word	.L59-.L58
+.L58:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0,0,0,0,0
+.L59:
+	.byte	5,26,7,0,5,2
+	.word	.L9
+	.byte	3,53,1,5,1,3,2,1,7,9
+	.half	.L27-.L9
+	.byte	0,1,1
+.L57:
+	.sdecl	'.debug_ranges',debug,cluster('rtGetInfF')
+	.sect	'.debug_ranges'
+.L26:
+	.word	-1,.L9,0,.L27-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('rtGetMinusInf')
+	.sect	'.debug_info'
+.L28:
+	.word	231
+	.half	3
+	.word	.L29
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L31,.L30
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'rtGetMinusInf',0,1,62,8
+	.word	.L38
+	.byte	1,1,1
+	.word	.L11,.L44,.L10
+	.byte	4
+	.word	.L11,.L44
+	.byte	5
+	.byte	'minf',0,1,65,10
+	.word	.L38,.L45
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtGetMinusInf')
+	.sect	'.debug_abbrev'
+.L29:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtGetMinusInf')
+	.sect	'.debug_line'
+.L30:
+	.word	.L61-.L60
+.L60:
+	.half	3
+	.word	.L63-.L62
+.L62:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0,0,0,0,0
+.L63:
+	.byte	5,26,7,0,5,2
+	.word	.L11
+	.byte	3,194,0,1,5,1,7,9
+	.half	.L32-.L11
+	.byte	3,13,0,1,1
+.L61:
+	.sdecl	'.debug_ranges',debug,cluster('rtGetMinusInf')
+	.sect	'.debug_ranges'
+.L31:
+	.word	-1,.L11,0,.L32-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('rtGetMinusInfF')
+	.sect	'.debug_info'
+.L33:
+	.word	233
+	.half	3
+	.word	.L34
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L36,.L35
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'rtGetMinusInfF',0,1,86,10
+	.word	.L38
+	.byte	1,1,1
+	.word	.L13,.L46,.L12
+	.byte	4
+	.word	.L13,.L46
+	.byte	5
+	.byte	'minfF',0,1,88,14
+	.word	.L42,.L47
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtGetMinusInfF')
+	.sect	'.debug_abbrev'
+.L34:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtGetMinusInfF')
+	.sect	'.debug_line'
+.L35:
+	.word	.L65-.L64
+.L64:
+	.half	3
+	.word	.L67-.L66
+.L66:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\ACC_3Dof\\rtGetInf.c',0,0,0,0,0
+.L67:
+	.byte	5,27,7,0,5,2
+	.word	.L13
+	.byte	3,216,0,1,5,1,3,2,1,7,9
+	.half	.L37-.L13
+	.byte	0,1,1
+.L65:
+	.sdecl	'.debug_ranges',debug,cluster('rtGetMinusInfF')
+	.sect	'.debug_ranges'
+.L36:
+	.word	-1,.L13,0,.L37-.L13,0,0
+	.sdecl	'.debug_loc',debug,cluster('rtGetInf')
+	.sect	'.debug_loc'
+.L40:
+	.word	0,0
+.L6:
+	.word	-1,.L7,0,.L39-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rtGetInfF')
+	.sect	'.debug_loc'
+.L43:
+	.word	0,0
+.L8:
+	.word	-1,.L9,0,.L41-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rtGetMinusInf')
+	.sect	'.debug_loc'
+.L45:
+	.word	0,0
+.L10:
+	.word	-1,.L11,0,.L44-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rtGetMinusInfF')
+	.sect	'.debug_loc'
+.L47:
+	.word	0,0
+.L12:
+	.word	-1,.L13,0,.L46-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L68:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('rtGetInf')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L68,.L7,.L39-.L7
+	.sdecl	'.debug_frame',debug,cluster('rtGetInfF')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L68,.L9,.L41-.L9
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('rtGetMinusInf')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L68,.L11,.L44-.L11
+	.sdecl	'.debug_frame',debug,cluster('rtGetMinusInfF')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L68,.L13,.L46-.L13
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    92  
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    93  /*
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    94   * File trailer for generated code.
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    95   *
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    96   * [EOF]
+; ..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.c	    97   */
+
+	; Module end

@@ -1,0 +1,1176 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382"
+	.compiler_invocation	"ctc --dep-file=0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\.automldiffas_HVdeABOT.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\Debug_DLC -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\_self -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\_self\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\_self\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\_self\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\_self\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\autolibsharedcommon -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\autolibsharedcommon\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\autolibsharedcommon\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\autolibsharedcommon\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\autolibsharedcommon\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\vehdynlibdriver -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\vehdynlibdriver\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\vehdynlibdriver\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\vehdynlibdriver\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Debug_DLCReferenceApplication\\vehdynlibdriver\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\_self -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\_self\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\_self\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\_self\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\_self\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\autolibshareddrivetraincommon -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\autolibshareddrivetraincommon\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\autolibshareddrivetraincommon\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\autolibshareddrivetraincommon\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\Driveline\\autolibshareddrivetraincommon\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\EMLReport -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\EMLReport\\s5figm4gFeAzNzrVtN0b7iG -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\EMLReport\\sWCB59BP5i2VR0wsmZFIlSB -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\EMLReport\\sxFjFr17V0eeVe1wh8X1PLD -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\_self -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\_self\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\_self\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\_self\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\_self\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\autolibshared -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\autolibshared\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\autolibshared\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\autolibshared\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\autolibshared\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibeom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibeom\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibeom\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibeom\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibeom\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibtirecommon -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibtirecommon\\rtw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibtirecommon\\rtw\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibtirecommon\\rtw\\ert\\info -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\_sfprj\\PassVeh14DOF\\vehdynlibtirecommon\\rtw\\ert\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\html -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\html\\css -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\html\\js -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Debug_DLCReferenceApplication -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Debug_DLCReferenceApplication\\tmwinternal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Driveline -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Driveline\\html -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Driveline\\html\\css -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Driveline\\html\\js -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\Driveline\\tmwinternal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\PassVeh14DOF -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\PassVeh14DOF\\html -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\PassVeh14DOF\\html\\css -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\PassVeh14DOF\\html\\js -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\PassVeh14DOF\\tmwinternal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim\\varcache -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim\\varcache\\Debug_DLCReferenceApplication -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim\\varcache\\Driveline -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim\\varcache\\Driveline\\tmwinternal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim\\varcache\\PassVeh14DOF -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\sim\\varcache\\PassVeh14DOF\\tmwinternal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\APP_Model -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Asc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Lin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Spi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\UART -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.src ..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.c"
+	.compiler_name		"ctc"
+	;source	'..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.automldiffas_HVdeABOT.automldiffas_HVdeABOT',code,cluster('automldiffas_HVdeABOT')
+	.sect	'.text.automldiffas_HVdeABOT.automldiffas_HVdeABOT'
+	.align	2
+	
+	.global	automldiffas_HVdeABOT
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     1  /*
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     2   * File: automldiffas_HVdeABOT.c
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     3   *
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     4   * Code generated for Simulink model 'Driveline'.
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     5   *
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     6   * Model version                  : 1.245
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     7   * Simulink Coder version         : 9.4 (R2020b) 29-Jul-2020
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     8   * C/C++ source code generated on : Thu Sep  7 16:26:34 2023
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	     9   */
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    10  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    11  #include "rtwtypes.h"
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    12  #include "automldiffas_HVdeABOT.h"
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    13  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    14  /* Function for MATLAB Function: '<S10>/Active Slip Differential' */
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    15  void automldiffas_HVdeABOT(const real_T u[5], real_T b_bw1, real_T b_bd, real_T
+; Function automldiffas_HVdeABOT
+.L7:
+automldiffas_HVdeABOT:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    16    b_bw2, real_T b_Ndiff, real_T Nl, real_T Nr, real_T shaftSwitch, real_T b_Jd,
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    17    real_T b_Jw1, real_T b_Jw2, real_T b_Jgc, const real_T x[2], real_T y[5],
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    18    real_T xdot[2])
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    19  {
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    20    real_T diffDir_0[10];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    21    real_T diffDir_1[10];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    22    real_T invJ_0[10];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    23    real_T tmp[5];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    24    real_T invJ[4];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    25    real_T invJ_1[4];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    26    real_T invJ_2[2];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    27    real_T NbdTerm;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    28    real_T NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    29    real_T term1;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    30    real_T term2;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    31    int32_T diffDir;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    32    int32_T i;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    33    int32_T invJ_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    34    int32_T invJ_tmp_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    35    NbdTerm_tmp = b_Ndiff * b_Ndiff;
+	mul.f	d3,d7,d7
+	sub.a	a10,#192
+.L56:
+	st.a	[a10]180,a4
+.L63:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    36    NbdTerm = NbdTerm_tmp * b_bd / 4.0;
+	mul.f	d0,d3,d5
+	mov.aa	a12,a5
+.L64:
+	movh	d1,#16000
+	ld.w	d15,[a10]200
+.L65:
+	ld.w	d2,[a10]204
+.L67:
+	ld.w	d11,[a10]216
+.L69:
+	mul.f	d5,d0,d1
+	ld.w	d10,[a10]212
+.L58:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    37    if (shaftSwitch != 0.0) {
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    38      diffDir = -1;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    39    } else {
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    40      diffDir = 1;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    41    }
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    42  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    43    b_Jd += b_Jgc;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    44    term1 = NbdTerm_tmp * b_Jd;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    45    term2 = (4.0 * b_Jw1 * b_Jw2 + term1 * b_Jw1) + b_Jw2 * term1;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    46    invJ[0] = (b_Jw2 * 4.0 + term1) / term2;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    47    NbdTerm_tmp = -term1 / term2;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    48    invJ[2] = NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    49    invJ[1] = NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    50    invJ[3] = (b_Jw1 * 4.0 + term1) / term2;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    51    NbdTerm_tmp = (real_T)diffDir / 2.0 * b_Ndiff;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    52    diffDir_0[0] = NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    53    diffDir_0[2] = -1.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    54    diffDir_0[4] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    55    diffDir_0[6] = Nl / 2.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    56    diffDir_0[8] = -Nr / 2.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    57    diffDir_0[1] = NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    58    diffDir_0[3] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    59    diffDir_0[5] = -1.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    60    diffDir_0[7] = Nl / 2.0 + -1.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    61    diffDir_0[9] = Nr / 2.0 + 1.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    62    term1 = -(b_bw1 + NbdTerm);
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    63    term2 = -(NbdTerm + b_bw2);
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    64    diffDir_1[0] = NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    65    diffDir_1[5] = NbdTerm_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    66    for (diffDir = 0; diffDir < 2; diffDir++) {
+	extr.u	d0,d15,#23,#8
+	mov.a	a13,#1
+.L110:
+	add.f	d2,d2,d11
+.L111:
+	mov	e8,d6,d4
+	ld.w	d6,[a10]208
+.L60:
+	mul.f	d11,d3,d2
+	ld.w	d4,[a10]192
+.L59:
+	eq	d15,d0,#0
+	st.a	[a10]184,a6
+.L66:
+	movh	d13,#16512
+	st.a	[a10]188,a7
+.L73:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    67      invJ_1[diffDir] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    68      invJ_1[diffDir] += invJ[diffDir] * term1;
+	mul.f	d1,d6,d13
+	lea	a7,[a10]156
+.L61:
+	sha	d0,d15,#1
+.L112:
+	mul.f	d15,d11,d6
+.L74:
+	add	d0,#-1
+.L113:
+	madd.f	d15,d15,d1,d10
+.L114:
+	mov	d12,#0
+.L115:
+	madd.f	d1,d15,d10,d11
+.L75:
+	madd.f	d15,d11,d10,d13
+.L116:
+	mov	d10,d12
+.L70:
+	div.f	d15,d15,d1
+	st.w	[a10]140,d15
+.L117:
+	movh	d15,#32768
+	msub.f	d15,d15,d3,d2
+.L118:
+	movh	d3,#49024
+.L62:
+	div.f	d15,d15,d1
+	st.w	[a10]148,d15
+.L77:
+	st.w	[a10]144,d15
+.L119:
+	madd.f	d15,d11,d6,d13
+.L78:
+	movh	d6,#16256
+.L71:
+	div.f	d15,d15,d1
+	st.w	[a10]152,d15
+.L79:
+	itof	d15,d0
+.L80:
+	movh	d1,#16128
+.L76:
+	mul.f	d15,d15,d1
+.L120:
+	mul.f	d2,d15,d7
+	st.w	[a10],d2
+.L68:
+	st.w	[a10]8,d3
+.L121:
+	mul.f	d15,d4,d1
+	st.w	[a10]16,d12
+.L122:
+	st.w	[a10]24,d15
+.L123:
+	ld.w	d15,[a10]196
+.L81:
+	insn.t	d0,d15:31,d15:31
+.L124:
+	mul.f	d15,d0,d1
+	st.w	[a10]32,d15
+.L82:
+	st.w	[a10]4,d2
+.L125:
+	st.w	[a10]12,d12
+.L126:
+	madd.f	d15,d3,d4,d1
+	st.w	[a10]20,d3
+.L127:
+	st.w	[a10]28,d15
+.L83:
+	add.f	d0,d8,d5
+.L84:
+	ld.w	d15,[a10]196
+.L85:
+	insn.t	d8,d0:31,d0:31
+.L72:
+	add.f	d0,d5,d9
+.L87:
+	mul.f	d7,d15,d1
+.L57:
+	madd.f	d15,d6,d15,d1
+	st.w	[a10]36,d15
+.L86:
+	insn.t	d9,d0:31,d0:31
+	st.w	[a10]40,d2
+.L88:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    69      NbdTerm_tmp = invJ[diffDir + 2];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    70      invJ_1[diffDir] += NbdTerm_tmp * -NbdTerm;
+	insn.t	d5,d5:31,d5:31
+	st.w	[a10]60,d2
+.L2:
+	addsc.a	a2,a10,d10,#2
+.L128:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    71      invJ_1[diffDir + 2] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    72      invJ_1[diffDir + 2] += invJ[diffDir] * -NbdTerm;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    73      invJ_1[diffDir + 2] += NbdTerm_tmp * term2;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    74      invJ_2[diffDir] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    75      for (i = 0; i < 5; i++) {
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    76        invJ_tmp_tmp = i << 1;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    77        invJ_tmp = diffDir + invJ_tmp_tmp;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    78        invJ_0[invJ_tmp] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    79        invJ_0[invJ_tmp] += diffDir_0[invJ_tmp_tmp] * invJ[diffDir];
+	mov.aa	a5,a10
+.L129:
+	lea	a14,[a2]140
+	ld.w	d0,[a14]
+.L130:
+	lea	a6,[a2]164
+.L131:
+	mul.f	d2,d0,d8
+	st.w	[a7],d2
+.L132:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    80        invJ_0[invJ_tmp] += diffDir_0[invJ_tmp_tmp + 1] * NbdTerm_tmp;
+	lea	a4,[a10]4
+.L133:
+	ld.w	d11,[a14]8
+.L89:
+	mov.a	a3,#4
+.L134:
+	madd.f	d2,d2,d11,d5
+	st.w	[a7],d2
+.L135:
+	mul.f	d2,d11,d9
+.L136:
+	madd.f	d0,d2,d0,d5
+	st.w	[a6],d0
+.L137:
+	mov	d0,#0
+.L138:
+	ld.a	a15,[a10]180
+.L91:
+	mov	d2,d0
+.L3:
+	sha	d15,d2,#1
+	ld.w	d14,[a14]
+.L94:
+	add	d15,d10
+	ld.w	d13,[a5+]8
+.L96:
+	addsc.a	a2,a10,d15,#2
+.L139:
+	ld.w	d15,[a4+]8
+.L95:
+	add	d2,#1
+.L140:
+	mul.f	d15,d15,d11
+.L141:
+	madd.f	d15,d15,d13,d14
+	st.w	[a2]80,d15
+.L142:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    81        invJ_2[diffDir] += invJ_0[invJ_tmp] * u[i];
+	ld.w	d13,[a15+]
+.L143:
+	madd.f	d0,d0,d15,d13
+	loop	a3,.L3
+.L144:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    82      }
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    83  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    84      xdot[diffDir] = invJ_2[diffDir] + (invJ_1[diffDir + 2] * x[1] +
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    85        invJ_1[diffDir] * x[0]);
+	ld.w	d13,[a12]
+.L145:
+	ld.w	d11,[a7+]
+.L90:
+	ld.w	d2,[a6]
+.L93:
+	mul.f	d11,d11,d13
+	ld.w	d15,[a12]4
+.L146:
+	ld.a	a15,[a10]188
+.L92:
+	madd.f	d15,d11,d2,d15
+.L147:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    86      diffDir_1[5 * diffDir + 1] = (real_T)diffDir + -1.0;
+	itof	d2,d10
+.L148:
+	addsc.a	a15,a15,d10,#2
+.L97:
+	add.f	d15,d0,d15
+.L149:
+	st.w	[a15],d15
+.L150:
+	mul	d15,d10,#20
+.L151:
+	addsc.a	a15,a10,d15,#0
+.L152:
+	add.f	d15,d2,d3
+.L153:
+	lea	a15,[a15]40
+.L154:
+	st.w	[a15]4,d15
+.L155:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    87      diffDir_1[5 * diffDir + 2] = 0.0 - (real_T)diffDir;
+	insn.t	d15,d2:31,d2:31
+	st.w	[a15]8,d15
+.L156:
+	addsc.a	a15,a10,d10,#2
+.L157:
+	add	d10,#1
+.L158:
+	st.w	[a15]172,d0
+	loop	a13,.L2
+.L159:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    88    }
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    89  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    90    diffDir_1[3] = -Nl / 2.0;
+	insn.t	d15,d4:31,d4:31
+.L160:
+	mul.f	d15,d15,d1
+	st.w	[a10]52,d15
+.L161:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    91    diffDir_1[8] = 1.0 - Nl / 2.0;
+	msub.f	d15,d6,d4,d1
+	st.w	[a10]72,d15
+.L162:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    92    diffDir_1[4] = Nr / 2.0;
+	st.w	[a10]56,d7
+.L163:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    93    diffDir_1[9] = Nr / 2.0 + -1.0;
+	ld.w	d15,[a10]196
+.L98:
+	madd.f	d15,d3,d15,d1
+	st.w	[a10]76,d15
+.L99:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    94    for (diffDir = 0; diffDir < 5; diffDir++) {
+	mov	d15,d12
+	mov.a	a2,#4
+.L4:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    95      tmp[diffDir] = 0.0;
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    96      for (i = 0; i < 5; i++) {
+	mov	d0,#0
+	mov.a	a4,#4
+.L164:
+	ld.a	a15,[a10]180
+.L5:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    97        tmp[diffDir] += 0.0 * u[i];
+	ld.w	d1,[a15+]
+.L165:
+	madd.f	d0,d0,d1,d12
+	loop	a4,.L5
+.L166:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    98      }
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	    99  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   100      y[diffDir] = (diffDir_1[diffDir + 5] * x[1] + diffDir_1[diffDir] * x[0]) +
+	addsc.a	a4,a10,d15,#2
+.L167:
+	ld.w	d4,[a12]
+.L168:
+	ld.w	d3,[a4]40
+.L169:
+	ld.a	a15,[a10]184
+.L100:
+	mul.f	d3,d3,d4
+	ld.w	d2,[a12]4
+.L170:
+	ld.w	d1,[a4]60
+.L171:
+	addsc.a	a15,a15,d15,#2
+.L101:
+	madd.f	d1,d3,d1,d2
+.L172:
+	add	d15,#1
+.L173:
+	add.f	d1,d1,d0
+	st.w	[a15],d1
+.L174:
+	st.w	[a4]120,d0
+	loop	a2,.L4
+.L175:
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   101        tmp[diffDir];
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   102    }
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   103  }
+	ret
+.L17:
+	
+__automldiffas_HVdeABOT_function_end:
+	.size	automldiffas_HVdeABOT,__automldiffas_HVdeABOT_function_end-automldiffas_HVdeABOT
+.L16:
+	; End of function
+	
+	.calls	'automldiffas_HVdeABOT','',192
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L9:
+	.word	635
+	.half	3
+	.word	.L10
+	.byte	4
+.L8:
+	.byte	1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L11
+.L51:
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	197
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	204
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	246
+	.byte	7
+	.word	246
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	262
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	267
+	.byte	9
+	.byte	'value',0
+	.word	246
+	.byte	9
+	.byte	'compare',0
+	.word	246
+	.byte	0
+.L20:
+	.byte	2
+	.byte	'float',0,4,4,3
+	.word	324
+.L18:
+	.byte	7
+	.word	333
+.L33:
+	.byte	7
+	.word	324
+.L36:
+	.byte	10,40
+	.word	324
+	.byte	11,9,0
+.L40:
+	.byte	10,20
+	.word	324
+	.byte	11,4,0
+.L42:
+	.byte	10,16
+	.word	324
+	.byte	11,3,0
+.L45:
+	.byte	10,8
+	.word	324
+	.byte	11,1,0,12,1,7
+	.word	384
+	.byte	13
+	.byte	'__codeptr',0,1,1,1
+	.word	386
+	.byte	2
+	.byte	'char',0,1,6,13
+	.byte	'int8_T',0,2,42,21
+	.word	409
+	.byte	2
+	.byte	'unsigned char',0,1,8,13
+	.byte	'uint8_T',0,2,43,23
+	.word	432
+	.byte	2
+	.byte	'short int',0,2,5,13
+	.byte	'int16_T',0,2,44,15
+	.word	465
+	.byte	2
+	.byte	'unsigned short int',0,2,7,13
+	.byte	'uint16_T',0,2,45,24
+	.word	494
+	.byte	13
+	.byte	'int32_T',0,2,46,13
+	.word	197
+	.byte	13
+	.byte	'uint32_T',0,2,47,22
+	.word	246
+	.byte	13
+	.byte	'real32_T',0,2,48,15
+	.word	324
+	.byte	13
+	.byte	'real64_T',0,2,49,16
+	.word	324
+	.byte	13
+	.byte	'real_T',0,2,55,16
+	.word	324
+	.byte	2
+	.byte	'char',0,1,6,13
+	.byte	'char_T',0,2,61,14
+	.word	615
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,1,1,11,15,73,19,0,0,11,33,0,47,15,0,0,12,21,0,54,15,0,0,13,22,0
+	.byte	3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L11:
+	.word	.L103-.L102
+.L102:
+	.half	3
+	.word	.L105-.L104
+.L104:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.c',0,0,0,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\rtwtypes.h',0,0,0,0,0
+.L105:
+.L103:
+	.sdecl	'.debug_info',debug,cluster('automldiffas_HVdeABOT')
+	.sect	'.debug_info'
+.L12:
+	.word	806
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L15,.L14
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'automldiffas_HVdeABOT',0,1,15,6,1,1,1
+	.word	.L7,.L17,.L6
+	.byte	4
+	.byte	'u',0,1,15,41
+	.word	.L18,.L19
+	.byte	4
+	.byte	'b_bw1',0,1,15,54
+	.word	.L20,.L21
+	.byte	4
+	.byte	'b_bd',0,1,15,68
+	.word	.L20,.L22
+	.byte	4
+	.byte	'b_bw2',0,1,16,3
+	.word	.L20,.L23
+	.byte	4
+	.byte	'b_Ndiff',0,1,16,17
+	.word	.L20,.L24
+	.byte	4
+	.byte	'Nl',0,1,16,33
+	.word	.L20,.L25
+	.byte	4
+	.byte	'Nr',0,1,16,44
+	.word	.L20,.L26
+	.byte	4
+	.byte	'shaftSwitch',0,1,16,55
+	.word	.L20,.L27
+	.byte	4
+	.byte	'b_Jd',0,1,16,75
+	.word	.L20,.L28
+	.byte	4
+	.byte	'b_Jw1',0,1,17,10
+	.word	.L20,.L29
+	.byte	4
+	.byte	'b_Jw2',0,1,17,24
+	.word	.L20,.L30
+	.byte	4
+	.byte	'b_Jgc',0,1,17,38
+	.word	.L20,.L31
+	.byte	4
+	.byte	'x',0,1,17,58
+	.word	.L18,.L32
+	.byte	4
+	.byte	'y',0,1,17,71
+	.word	.L33,.L34
+	.byte	4
+	.byte	'xdot',0,1,18,10
+	.word	.L33,.L35
+	.byte	5
+	.word	.L7,.L17
+	.byte	6
+	.byte	'diffDir_0',0,1,20,10
+	.word	.L36,.L37
+	.byte	6
+	.byte	'diffDir_1',0,1,21,10
+	.word	.L36,.L38
+	.byte	6
+	.byte	'invJ_0',0,1,22,10
+	.word	.L36,.L39
+	.byte	6
+	.byte	'tmp',0,1,23,10
+	.word	.L40,.L41
+	.byte	6
+	.byte	'invJ',0,1,24,10
+	.word	.L42,.L43
+	.byte	6
+	.byte	'invJ_1',0,1,25,10
+	.word	.L42,.L44
+	.byte	6
+	.byte	'invJ_2',0,1,26,10
+	.word	.L45,.L46
+	.byte	6
+	.byte	'NbdTerm',0,1,27,10
+	.word	.L20,.L47
+	.byte	6
+	.byte	'NbdTerm_tmp',0,1,28,10
+	.word	.L20,.L48
+	.byte	6
+	.byte	'term1',0,1,29,10
+	.word	.L20,.L49
+	.byte	6
+	.byte	'term2',0,1,30,10
+	.word	.L20,.L50
+	.byte	6
+	.byte	'diffDir',0,1,31,11
+	.word	.L51,.L52
+	.byte	6
+	.byte	'i',0,1,32,11
+	.word	.L51,.L53
+	.byte	6
+	.byte	'invJ_tmp',0,1,33,11
+	.word	.L51,.L54
+	.byte	6
+	.byte	'invJ_tmp_tmp',0,1,34,11
+	.word	.L51,.L55
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('automldiffas_HVdeABOT')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('automldiffas_HVdeABOT')
+	.sect	'.debug_line'
+.L14:
+	.word	.L107-.L106
+.L106:
+	.half	3
+	.word	.L109-.L108
+.L108:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\APP_Model\\slprj\\ert\\_sharedutils\\automldiffas_HVdeABOT.c',0,0,0,0,0
+.L109:
+	.byte	5,25,7,0,5,2
+	.word	.L7
+	.byte	3,34,1,5,6,3,108,1,5,25,9
+	.half	.L63-.L7
+	.byte	3,21,1,5,6,3,107,1,5,34,9
+	.half	.L64-.L63
+	.byte	3,21,1,5,6,3,107,1,5,25,9
+	.half	.L69-.L64
+	.byte	3,21,1,5,6,3,107,1,5,7,9
+	.half	.L58-.L69
+	.byte	3,22,1,5,32,3,29,1,5,8,9
+	.half	.L110-.L58
+	.byte	3,105,1,5,6,9
+	.half	.L111-.L110
+	.byte	3,100,1,5,23,9
+	.half	.L60-.L111
+	.byte	3,29,1,5,6,3,99,1,5,7,9
+	.half	.L59-.L60
+	.byte	3,22,1,5,6,3,106,1,5,12,9
+	.half	.L66-.L59
+	.byte	3,30,1,5,6,3,98,1,5,16,9
+	.half	.L73-.L66
+	.byte	3,30,1,5,5,3,23,1,5,19,9
+	.half	.L61-.L73
+	.byte	3,97,1,5,40,9
+	.half	.L112-.L61
+	.byte	3,8,1,5,19,9
+	.half	.L74-.L112
+	.byte	3,120,1,5,32,9
+	.half	.L113-.L74
+	.byte	3,8,1,5,22,9
+	.half	.L114-.L113
+	.byte	3,120,1,5,49,9
+	.half	.L115-.L114
+	.byte	3,8,1,5,26,9
+	.half	.L75-.L115
+	.byte	3,1,1,5,16,9
+	.half	.L116-.L75
+	.byte	3,20,1,5,35,9
+	.half	.L70-.L116
+	.byte	3,108,1,5,11,1,5,17,9
+	.half	.L117-.L70
+	.byte	3,1,1,5,18,9
+	.half	.L118-.L117
+	.byte	3,6,1,5,24,9
+	.half	.L62-.L118
+	.byte	3,122,1,5,11,3,1,1,9
+	.half	.L77-.L62
+	.byte	3,1,1,5,26,9
+	.half	.L119-.L77
+	.byte	3,1,1,5,29,9
+	.half	.L78-.L119
+	.byte	3,11,1,5,35,9
+	.half	.L71-.L78
+	.byte	3,117,1,5,11,1,5,17,9
+	.half	.L79-.L71
+	.byte	3,1,1,5,35,9
+	.half	.L80-.L79
+	.byte	1,5,17,9
+	.half	.L76-.L80
+	.byte	1,5,39,9
+	.half	.L120-.L76
+	.byte	1,5,16,3,1,1,9
+	.half	.L68-.L120
+	.byte	3,1,1,5,18,9
+	.half	.L121-.L68
+	.byte	3,2,1,5,16,3,127,1,9
+	.half	.L122-.L121
+	.byte	3,1,1,5,18,9
+	.half	.L123-.L122
+	.byte	3,1,1,5,16,9
+	.half	.L124-.L123
+	.byte	1,9
+	.half	.L82-.L124
+	.byte	3,1,1,9
+	.half	.L125-.L82
+	.byte	3,1,1,5,27,9
+	.half	.L126-.L125
+	.byte	3,2,1,5,16,3,127,1,9
+	.half	.L127-.L126
+	.byte	3,1,1,5,19,9
+	.half	.L83-.L127
+	.byte	3,2,1,5,18,9
+	.half	.L84-.L83
+	.byte	3,127,1,5,11,9
+	.half	.L85-.L84
+	.byte	3,1,1,5,21,9
+	.half	.L72-.L85
+	.byte	3,1,1,5,18,9
+	.half	.L87-.L72
+	.byte	3,126,1,5,27,9
+	.half	.L57-.L87
+	.byte	1,5,16,1,5,11,9
+	.half	.L86-.L57
+	.byte	3,2,1,5,16,3,1,1,5,38,9
+	.half	.L88-.L86
+	.byte	3,6,1,5,16,3,123,1,5,28,9
+	.half	.L2-.L88
+	.byte	3,3,1,5,27,9
+	.half	.L128-.L2
+	.byte	3,11,1,5,28,9
+	.half	.L129-.L128
+	.byte	3,117,1,5,5,9
+	.half	.L130-.L129
+	.byte	3,5,1,5,38,9
+	.half	.L131-.L130
+	.byte	3,123,1,5,21,1,5,50,9
+	.half	.L132-.L131
+	.byte	3,12,1,5,23,9
+	.half	.L133-.L132
+	.byte	3,117,1,5,22,9
+	.half	.L89-.L133
+	.byte	3,6,1,5,21,9
+	.half	.L134-.L89
+	.byte	3,123,1,5,40,9
+	.half	.L135-.L134
+	.byte	3,3,1,5,25,9
+	.half	.L136-.L135
+	.byte	1,5,21,9
+	.half	.L137-.L136
+	.byte	3,1,1,5,27,9
+	.half	.L138-.L137
+	.byte	3,1,1,5,12,9
+	.half	.L91-.L138
+	.byte	1,5,24,9
+	.half	.L3-.L91
+	.byte	3,1,1,5,57,3,3,1,5,26,9
+	.half	.L94-.L3
+	.byte	3,126,1,5,36,3,2,1,5,13,9
+	.half	.L96-.L94
+	.byte	3,1,1,5,36,9
+	.half	.L139-.L96
+	.byte	1,5,25,9
+	.half	.L95-.L139
+	.byte	3,123,1,5,55,9
+	.half	.L140-.L95
+	.byte	3,5,1,5,24,9
+	.half	.L141-.L140
+	.byte	1,5,46,9
+	.half	.L142-.L141
+	.byte	3,1,1,5,23,9
+	.half	.L143-.L142
+	.byte	1,5,22,3,122,1,5,26,7,9
+	.half	.L144-.L143
+	.byte	3,10,1,5,13,9
+	.half	.L145-.L144
+	.byte	1,5,46,9
+	.half	.L90-.L145
+	.byte	3,127,1,5,23,9
+	.half	.L93-.L90
+	.byte	3,1,1,5,63,3,127,1,5,9,9
+	.half	.L146-.L93
+	.byte	1,5,67,9
+	.half	.L92-.L146
+	.byte	1,5,34,9
+	.half	.L147-.L92
+	.byte	3,2,1,5,9,9
+	.half	.L148-.L147
+	.byte	3,126,1,5,37,9
+	.half	.L97-.L148
+	.byte	1,5,19,9
+	.half	.L149-.L97
+	.byte	1,5,17,9
+	.half	.L150-.L149
+	.byte	3,2,1,5,5,9
+	.half	.L151-.L150
+	.byte	1,5,50,9
+	.half	.L152-.L151
+	.byte	1,5,5,9
+	.half	.L153-.L152
+	.byte	1,5,32,9
+	.half	.L154-.L153
+	.byte	1,5,38,9
+	.half	.L155-.L154
+	.byte	3,1,1,5,32,1,5,11,9
+	.half	.L156-.L155
+	.byte	3,115,1,5,41,9
+	.half	.L157-.L156
+	.byte	3,120,1,5,43,9
+	.half	.L158-.L157
+	.byte	1,5,32,1,5,18,7,9
+	.half	.L159-.L158
+	.byte	3,24,1,5,16,9
+	.half	.L160-.L159
+	.byte	1,5,22,9
+	.half	.L161-.L160
+	.byte	3,1,1,5,16,1,9
+	.half	.L162-.L161
+	.byte	3,1,1,5,27,9
+	.half	.L163-.L162
+	.byte	3,1,1,5,16,9
+	.half	.L98-.L163
+	.byte	1,9
+	.half	.L99-.L98
+	.byte	3,1,1,5,32,1,5,18,9
+	.half	.L4-.L99
+	.byte	3,1,1,5,22,3,1,1,5,27,9
+	.half	.L164-.L4
+	.byte	1,5,30,9
+	.half	.L5-.L164
+	.byte	3,1,1,5,20,9
+	.half	.L165-.L5
+	.byte	1,5,22,3,127,1,5,60,7,9
+	.half	.L166-.L165
+	.byte	3,4,1,5,73,9
+	.half	.L167-.L166
+	.byte	1,5,60,9
+	.half	.L168-.L167
+	.byte	1,5,6,9
+	.half	.L169-.L168
+	.byte	1,5,70,9
+	.half	.L100-.L169
+	.byte	1,5,45,1,5,28,9
+	.half	.L170-.L100
+	.byte	1,5,6,9
+	.half	.L171-.L170
+	.byte	1,5,49,9
+	.half	.L101-.L171
+	.byte	1,5,41,9
+	.half	.L172-.L101
+	.byte	3,122,1,5,78,9
+	.half	.L173-.L172
+	.byte	3,6,1,5,16,1,5,43,9
+	.half	.L174-.L173
+	.byte	3,122,1,5,32,1,5,1,7,9
+	.half	.L175-.L174
+	.byte	3,9,1,7,9
+	.half	.L16-.L175
+	.byte	0,1,1
+.L107:
+	.sdecl	'.debug_ranges',debug,cluster('automldiffas_HVdeABOT')
+	.sect	'.debug_ranges'
+.L15:
+	.word	-1,.L7,0,.L16-.L7,0,0
+	.sdecl	'.debug_loc',debug,cluster('automldiffas_HVdeABOT')
+	.sect	'.debug_loc'
+.L47:
+	.word	-1,.L7,.L58-.L7,.L2-.L7
+	.half	1
+	.byte	85
+	.word	0,0
+.L48:
+	.word	-1,.L7,.L56-.L7,.L62-.L7
+	.half	1
+	.byte	83
+	.word	.L77-.L7,.L78-.L7
+	.half	1
+	.byte	95
+	.word	.L68-.L7,.L2-.L7
+	.half	1
+	.byte	82
+	.word	.L89-.L7,.L90-.L7
+	.half	1
+	.byte	91
+	.word	0,0
+.L25:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,0
+	.word	.L59-.L7,.L4-.L7
+	.half	1
+	.byte	84
+	.word	0,0
+.L26:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,4
+	.word	.L81-.L7,.L82-.L7
+	.half	1
+	.byte	95
+	.word	.L85-.L7,.L86-.L7
+	.half	1
+	.byte	95
+	.word	.L98-.L7,.L99-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L6:
+	.word	-1,.L7,0,.L56-.L7
+	.half	2
+	.byte	138,0
+	.word	.L56-.L7,.L17-.L7
+	.half	3
+	.byte	138,192,1
+	.word	.L17-.L7,.L17-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L28:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,12
+	.word	.L67-.L7,.L68-.L7
+	.half	1
+	.byte	82
+	.word	0,0
+.L31:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,24
+	.word	.L69-.L7,.L59-.L7
+	.half	1
+	.byte	91
+	.word	0,0
+.L29:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,16
+	.word	.L60-.L7,.L71-.L7
+	.half	1
+	.byte	86
+	.word	0,0
+.L30:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,20
+	.word	.L58-.L7,.L70-.L7
+	.half	1
+	.byte	90
+	.word	0,0
+.L24:
+	.word	-1,.L7,0,.L57-.L7
+	.half	1
+	.byte	87
+	.word	0,0
+.L22:
+	.word	-1,.L7,0,.L58-.L7
+	.half	1
+	.byte	85
+	.word	0,0
+.L21:
+	.word	-1,.L7,0,.L59-.L7
+	.half	1
+	.byte	84
+	.word	.L83-.L7,.L84-.L7
+	.half	1
+	.byte	88
+	.word	0,0
+.L23:
+	.word	-1,.L7,0,.L60-.L7
+	.half	1
+	.byte	86
+	.word	.L72-.L7,.L87-.L7
+	.half	1
+	.byte	89
+	.word	0,0
+.L52:
+	.word	-1,.L7,.L74-.L7,.L70-.L7
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L70-.L7,.L4-.L7
+	.half	1
+	.byte	90
+	.word	.L79-.L7,.L80-.L7
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L4-.L7,.L17-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L37:
+	.word	-1,.L7,0,.L17-.L7
+	.half	3
+	.byte	145,192,126
+	.word	0,0
+.L38:
+	.word	-1,.L7,0,.L17-.L7
+	.half	3
+	.byte	145,232,126
+	.word	0,0
+.L53:
+	.word	-1,.L7,.L3-.L7,.L93-.L7
+	.half	1
+	.byte	82
+	.word	0,0
+.L43:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,76
+	.word	0,0
+.L39:
+	.word	-1,.L7,0,.L17-.L7
+	.half	3
+	.byte	145,144,127
+	.word	0,0
+.L44:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,92
+	.word	0,0
+.L46:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,108
+	.word	0,0
+.L54:
+	.word	-1,.L7,.L94-.L7,.L95-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L55:
+	.word	-1,.L7,.L94-.L7,.L96-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L27:
+	.word	-1,.L7,0,.L17-.L7
+	.half	2
+	.byte	145,8
+	.word	.L65-.L7,.L66-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L49:
+	.word	-1,.L7,.L59-.L7,.L72-.L7
+	.half	1
+	.byte	91
+	.word	.L72-.L7,.L17-.L7
+	.half	1
+	.byte	88
+	.word	0,0
+.L50:
+	.word	-1,.L7,.L75-.L7,.L76-.L7
+	.half	1
+	.byte	81
+	.word	.L88-.L7,.L17-.L7
+	.half	1
+	.byte	89
+	.word	0,0
+.L41:
+	.word	-1,.L7,0,.L17-.L7
+	.half	3
+	.byte	145,184,127
+	.word	0,0
+.L19:
+	.word	-1,.L7,0,.L2-.L7
+	.half	1
+	.byte	100
+	.word	.L63-.L7,.L17-.L7
+	.half	2
+	.byte	145,116
+	.word	.L91-.L7,.L92-.L7
+	.half	1
+	.byte	111
+	.word	.L5-.L7,.L100-.L7
+	.half	1
+	.byte	111
+	.word	0,0
+.L32:
+	.word	-1,.L7,0,.L2-.L7
+	.half	1
+	.byte	101
+	.word	.L64-.L7,.L17-.L7
+	.half	1
+	.byte	108
+	.word	0,0
+.L35:
+	.word	-1,.L7,0,.L61-.L7
+	.half	1
+	.byte	103
+	.word	.L73-.L7,.L17-.L7
+	.half	2
+	.byte	145,124
+	.word	.L92-.L7,.L97-.L7
+	.half	1
+	.byte	111
+	.word	0,0
+.L34:
+	.word	-1,.L7,0,.L2-.L7
+	.half	1
+	.byte	102
+	.word	.L66-.L7,.L17-.L7
+	.half	2
+	.byte	145,120
+	.word	.L100-.L7,.L101-.L7
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L176:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('automldiffas_HVdeABOT')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L176,.L7,.L17-.L7
+	.byte	4
+	.word	(.L56-.L7)/2
+	.byte	19,192,1,22,26,4,19,138,192,1,4
+	.word	(.L17-.L56)/2
+	.byte	19,0,8,26
+
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   104  
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   105  /*
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   106   * File trailer for generated code.
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   107   *
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   108   * [EOF]
+; ..\0_Src\0_AppSw\Tricore\APP_Model\slprj\ert\_sharedutils\automldiffas_HVdeABOT.c	   109   */
+
+	; Module end

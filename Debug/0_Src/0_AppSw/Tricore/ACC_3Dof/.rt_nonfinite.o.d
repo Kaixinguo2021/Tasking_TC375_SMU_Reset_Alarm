@@ -1,0 +1,12 @@
+0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.o :	..\0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.c
+..\0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.c :
+0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.o :	..\0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.h
+..\0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.h :
+0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.o :	"D:\App\Tasking6_3_Install\ctc\include\stddef.h"
+"D:\App\Tasking6_3_Install\ctc\include\stddef.h" :
+0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.o :	..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtwtypes.h
+..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtwtypes.h :
+0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.o :	..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetNaN.h
+..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetNaN.h :
+0_Src\0_AppSw\Tricore\ACC_3Dof\rt_nonfinite.o :	..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.h
+..\0_Src\0_AppSw\Tricore\ACC_3Dof\rtGetInf.h :
